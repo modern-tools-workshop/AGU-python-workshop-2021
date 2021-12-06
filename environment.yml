@@ -8,6 +8,10 @@ dependencies:
   - pandas
   - cartopy
   - netcdf4
+  - pyproj
+  - eccodes
+  - cython
   - pygrib
   - notebook
   - scipy
+  - xarray

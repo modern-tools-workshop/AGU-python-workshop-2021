@@ -1,13 +1,13 @@
 # Python for Earth Sciences
 
 ### Instructor: [Rebekah Esmaili](http://www.rebekahesmaili.com)
-#### Contributors: [Kriti Bhargava](https://cisess.umd.edu/meet-our-scientists/kriti-bhargava/) and [Eviatar Bach](http://eviatarbach.com/)
+
 ---
 
 A crash course in Python focusing on reading and visualizing data-sets used in Earth sciences.
 
 This code is interactive! Click:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/modern-tools-workshop/AGU-python-workshop-2020/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/modern-tools-workshop/AGU-python-workshop-2021/HEAD)
 
 ---
 
@@ -29,7 +29,7 @@ Installation requirements
 "I am really new to Python!"
 
 * I recommend launching binder, which is a "cloud version" of this course. No installation required!
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/modern-tools-workshop/AGU-python-workshop-2020/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/modern-tools-workshop/AGU-python-workshop-2021/HEAD)
 
 * Need help with Binder? Video tutorial on [YouTube](https://youtu.be/3BrfFe4HsAw).
 
@@ -45,10 +45,16 @@ Installation requirements
     ```
     conda install -c conda-forge cartopy
     conda install -c conda-forge netCDF4
+    conda install -c conda-forge xarray
     conda install -c conda-forge pygrib
     ```
   * If there are no errors, then you are set-up!
-  * Alternatively, if you are familiar with environments, you can use the environments.yml to install the necessary packages.
+  * Alternatively, if you are familiar with environments, you can use the environments.yml to install the necessary packages. You can do this in the terminal using:
+  
+  ```
+  conda env create -f environment.yml
+  ```
+  Then, switch to the new environment (conda activate python-workshop) once the installation is complete. 
 
 I *do not* recommend:
 * Using Python on a remote server for this tutorial (I cannot help troubleshoot)
@@ -91,7 +97,16 @@ I *do not* recommend:
 
 ### General Python resources   
 
-<b> Free online Tutorials</b>
-   * YouTube series for absolute beginners [CS Dojo](https://www.youtube.com/watch?v=Z1Yd7upQsXY&list=PLBZBJbE_rGRWeh5mIBhD-hhDwSEDxogDg)
-   * [Python for Earth Science with Rebekah] (https://www.youtube.com/channel/UCGa4rhczYNTGBYIMxmR8nHg) ... we are slowly adding content ...
-   * Enhance your workflow [Automate Boring Stuff](https://automatetheboringstuff.com/)
+<b> Beginner Tutorials</b>
+   * Youtube series for absolute beginners [CS Dojo](https://www.youtube.com/watch?v=Z1Yd7upQsXY&list=PLBZBJbE_rGRWeh5mIBhD-hhDwSEDxogDg)
+   * [Research Software Engineering with Python](https://merely-useful.tech/py-rse/) Free eBook to enhance your workflow
+
+<b> Intermediate Tutorials</b>  
+    * Last year's workshop, [Python for Earth Science with Rebekah](https://youtube.com/playlist?list=PLlcgQ3Rl-9fR4oOmfeKPKHuk2Lj57bNJy), is available online. I'll upload this one once available.
+    * [Python for Climate and Meteorology](https://www.youtube.com/watch?v=uQZAEPnUZ5o) Another tutorial taught at AMS, a little more advanced.
+    * Learn more about [Python for Atmosphere and Ocean Scientists](https://carpentries-lab.github.io/python-aos-lesson/) using Software Carpentry lesson plans.
+    * [Earth Observation using Python](https://www.wiley.com/en-us/Earth+Observation+using+Python%3A+A+Practical+Programming+Guide-p-9781119606888) is a book I wrote that builds on the content of the workshop.
+    
+### Acknowledgements
+
+Special thanks to past contributors, [Kriti Bhargava](https://cisess.umd.edu/meet-our-scientists/kriti-bhargava/) and [Eviatar Bach](http://eviatarbach.com/)!
