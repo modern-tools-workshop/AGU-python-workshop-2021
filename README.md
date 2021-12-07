@@ -24,7 +24,7 @@ This workshop will cover:
 
 ---
 
-Installation requirements
+### Installation requirements
 
 "I am really new to Python!"
 
@@ -50,11 +50,11 @@ Installation requirements
     ```
   * If there are no errors, then you are set-up!
   * Alternatively, if you are familiar with environments, you can use the environments.yml to install the necessary packages. You can do this in the terminal using:
-  
+
   ```
   conda env create -f environment.yml
   ```
-  Then, switch to the new environment (conda activate python-workshop) once the installation is complete. 
+  Then, switch to the new environment (conda activate python-workshop) once the installation is complete.
 
 I *do not* recommend:
 * Using Python on a remote server for this tutorial (I cannot help troubleshoot)
@@ -82,10 +82,12 @@ I *do not* recommend:
 ---
 <b> Reading self describing file </b>
 * <b> NETCDF </b>
-    * Detailed tutorial https://unidata.github.io/netcdf4-python/netCDF4/index.html.
+    * Detailed tutorial on the netCDF4 package: https://unidata.github.io/netcdf4-python.
+    * Xarray tutorial: https://xarray-contrib.github.io/xarray-tutorial/
 * <b> HDF files </b>
     * The package [h5py](https://www.h5py.org/) is similar to netcdf4.
     * User manual at http://docs.h5py.org/en/stable/.
+    * Xarray can also open HDF files!
 * <b> GRIB/GRIB2 files </b>
     * World Meteorology Association standard format, e.g. commonly used with weather-related models like ECMWF and GFS.
     * Can be opened using [pygrib](https://github.com/jswhit/pygrib).
@@ -98,15 +100,21 @@ I *do not* recommend:
 ### General Python resources   
 
 <b> Beginner Tutorials</b>
-   * Youtube series for absolute beginners [CS Dojo](https://www.youtube.com/watch?v=Z1Yd7upQsXY&list=PLBZBJbE_rGRWeh5mIBhD-hhDwSEDxogDg)
-   * [Research Software Engineering with Python](https://merely-useful.tech/py-rse/) Free eBook to enhance your workflow
+
+    * Youtube series for absolute beginners [CS Dojo](https://www.youtube.com/watch?v=Z1Yd7upQsXY&list=PLBZBJbE_rGRWeh5mIBhD-hhDwSEDxogDg)
+
+    * [Research Software Engineering with Python](https://merely-useful.tech/py-rse/) Free eBook to enhance your workflow.
 
 <b> Intermediate Tutorials</b>  
+
     * Last year's workshop, [Python for Earth Science with Rebekah](https://youtube.com/playlist?list=PLlcgQ3Rl-9fR4oOmfeKPKHuk2Lj57bNJy), is available online. I'll upload this one once available.
+
     * [Python for Climate and Meteorology](https://www.youtube.com/watch?v=uQZAEPnUZ5o) Another tutorial taught at AMS, a little more advanced.
+
     * Learn more about [Python for Atmosphere and Ocean Scientists](https://carpentries-lab.github.io/python-aos-lesson/) using Software Carpentry lesson plans.
+
     * [Earth Observation using Python](https://www.wiley.com/en-us/Earth+Observation+using+Python%3A+A+Practical+Programming+Guide-p-9781119606888) is a book I wrote that builds on the content of the workshop.
-    
+
 ### Acknowledgements
 
 Special thanks to past contributors, [Kriti Bhargava](https://cisess.umd.edu/meet-our-scientists/kriti-bhargava/) and [Eviatar Bach](http://eviatarbach.com/)!
